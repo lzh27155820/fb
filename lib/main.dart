@@ -112,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
    Future changeEnglish() async {
      Intl.defaultLocale = 'en';
     setState(() {
-
+     print('xx');
     });
   }
 }
